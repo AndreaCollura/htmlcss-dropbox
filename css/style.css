@@ -39,6 +39,7 @@ header{
     top: 0;
     z-index: 1000;
     border-bottom: 1px solid var(--lightgrey);
+    background-color: var(--white-bg);
 
 
 
@@ -58,6 +59,11 @@ main{
 
 }
 
+
+#hero{
+    background-color: var(--lightgrey);
+}
+
 /* footer */
 
 footer{
@@ -71,16 +77,31 @@ footer{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .inner-container{
     max-width: 1000px;
     margin: 0 auto;
+    
 }
 
 #clie-logos{
     max-width: 100%;
 }
+
+.hero-left{
+    width: 30%;
+}
+
+
+.hero-right{
+    width: 70%;
+    position: relative;
+    top: 0;
+}
+
+
 
 
 /* PULSANTI */
@@ -91,6 +112,14 @@ footer{
     background-color: var(--blue-btn);
     color: var(--white-bg);
    
+}
+
+
+.blue-body-btn{
+    padding: 10px 15px;
+    background-color: var(--blue-btn);
+    color: var(--white-bg);
+
 }
 
 
@@ -127,10 +156,8 @@ ul{
     list-style: none;
 }
 
-/* 
-header li{
-    padding: 0 10px;
-} */
+
+
 
 header a{
     font-size: 0.8rem;
@@ -139,6 +166,33 @@ header a{
     padding: 0 10px;
     
 }
+
+#hero h1{
+    font-size: 4.5rem;
+    padding: 80px 0 40px 0;
+    font-weight: 900;
+    
+}
+
+#hero li{
+    padding-bottom: 30px;
+}
+
+#hero a{
+
+    text-decoration: none;
+}
+
+
+.hero-left li:last-child{
+    font-size: rem;
+    color: var(--black);
+    
+}
+
+
+
+
 
 
 /* IMG */
@@ -149,6 +203,12 @@ header a{
    
 }
 
+
+.jumbo-img{
+    width: 80%;
+    position: absolute;
+
+}
 
 
 /* colori */
