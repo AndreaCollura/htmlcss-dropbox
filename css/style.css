@@ -38,7 +38,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 1000;
-    border-bottom: var(--lightgrey);
+    border-bottom: 1px solid var(--lightgrey);
 
 
 
@@ -83,6 +83,16 @@ footer{
 }
 
 
+/* PULSANTI */
+
+
+.head-btn{
+    padding: 5px 15px;
+    background-color: var(--blue-btn);
+    color: var(--white-bg);
+   
+}
+
 
 /* flex */
 
@@ -116,3 +126,30 @@ footer{
 ul{
     list-style: none;
 }
+
+/* 
+header li{
+    padding: 0 10px;
+} */
+
+header a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #000000;
+    padding: 0 10px;
+    
+}
+
+
+/* IMG */
+
+
+.logo-head{
+    width: 80%;
+   
+}
+
+
+
+/* colori */
+
