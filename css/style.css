@@ -1,0 +1,28 @@
+
+/* GENERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Color styles */
+
+:root{
+--white-bg: #FFFFFF;
+--blue-btn: #0061FF;
+--lightgrey: #B4D0E7;
+--black: #000000;
+--lightgreen: #A2D39B;
+--bordeaux: #61082B;
+--light-blue: #0093CE;
+--red: #FF1C1C;
+--designit-grey: #F5F5F5;
+--dark-red: #D5001F;
+--dark-blue: #0D2481;
+--yellow: #FFD830;
+
+}
+
