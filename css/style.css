@@ -84,15 +84,28 @@ footer{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 100px;
+    
     
 }
 
 .inner-container{
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 100px;
     
+    
+}
+
+.margin-b100{
+    margin-bottom: 100px;
+
+}
+
+.padding-b30{
+    padding-bottom: 30px;
+}
+
+.padding30{
+    padding: 30px;
 }
 
 #clie-logos{
@@ -109,6 +122,13 @@ footer{
     position: relative;
     top: 0;
 }
+
+.plans-box{
+    width: calc((100% / 3) -20px);
+    border: 1px solid var(--lightgrey);
+    
+}
+
 
 
 
@@ -162,7 +182,9 @@ footer{
 .aligcon-center{
     align-content: center;
 }
-
+.gap-flex{
+    gap: 40px;
+}
 
 /* text */
 
@@ -199,16 +221,35 @@ header a{
 }
 
 
+.black-text{
+
+    color: var(--black);
+}
+
+.title-pbox{
+    max-width: 100%;
+    font-size: .8rem;
+    padding: 8px 8px;
+    border-bottom: 1px solid var(--lightgrey);
+    text-align: center;
+
+
+}
+
+
+.grey-break{
+    border-bottom: 1px solid var(--lightgrey);
+    padding-bottom: 30px;
+    
+}
+
+
+
 /* freccia giu hero */
 
 .hero-left li:last-child{
     font-size: 2.3rem;
     margin: 30px 0 -20px 0;
-}
-
-.black-text{
-
-    color: var(--black);
 }
 
 
