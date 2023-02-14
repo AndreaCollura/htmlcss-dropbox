@@ -100,11 +100,35 @@ footer{
 
 }
 
-.icon-rpad5{
-    padding-right: 5px;
-    
-    
+.margin-tb25{
+    margin: 25px 0;
 }
+
+.margin-b60{
+    margin-bottom: 60px;
+}
+
+.margin-b40{
+    margin-bottom: 40px;
+}
+
+
+.icon-rpad5{
+    text-indent: -1.5rem;
+    padding-left: 1.2rem;
+}
+
+#plans ul li::before{
+    margin-right: .8rem;
+
+}
+
+#plans ul li span{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+}
+
 
 .padding-b30{
     padding-bottom: 30px;
@@ -205,7 +229,11 @@ width: 30%;
     align-content: center;
 }
 .gap-flex{
-    gap: 40px;
+    gap: 50px;
+}
+
+.disp-block{
+    display: block;
 }
 
 /* text */
@@ -253,15 +281,15 @@ header a{
 #plans li{
     padding-bottom: 20px;
     font-size: 0.8rem;
-    display: block;
+    
 
 }
 
 
-/* 
+
 .text-interline{
-    line-height: 45px;
-} */
+    line-height: 40px;
+}
 
 
 .black-text{
