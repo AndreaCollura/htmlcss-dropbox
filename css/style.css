@@ -23,7 +23,7 @@
 --dark-red: #D5001F;
 --dark-blue: #0D2481;
 --yellow: #FFD830;
-
+--grey-border: rgba(128, 128, 128, 0.671);
 }
 
 .debug{
@@ -112,6 +112,18 @@ footer{
     margin-bottom: 40px;
 }
 
+.padding-b30{
+    padding-bottom: 30px;
+}
+
+.padding30{
+    padding: 30px;
+}
+.padding-b20{
+    padding-bottom: 20px;
+}
+
+
 
 .icon-rpad5{
     text-indent: -1.5rem;
@@ -120,8 +132,12 @@ footer{
 
 #plans ul li::before{
     margin-right: .8rem;
+    
 
 }
+
+
+
 
 #plans ul li span{
     font-family: 'Open Sans', sans-serif;
@@ -130,13 +146,6 @@ footer{
 }
 
 
-.padding-b30{
-    padding-bottom: 30px;
-}
-
-.padding30{
-    padding: 30px;
-}
 
 #clie-logos{
     max-width: 100%;
@@ -155,13 +164,13 @@ footer{
 
 .plans-box{
     width: calc((100% / 3));
-    border: 1px solid var(--lightgrey);
+    border: 1px solid rgba(128, 128, 128, 0.671);
 
 }
 
 .plans-boxwide{
     width: 100%;
-    border: 1px solid var(--lightgrey);
+    border: 1px solid rgba(128, 128, 128, 0.671);
     margin-top: 30px;
 }
 
@@ -172,6 +181,17 @@ width: 30%;
 
 .team-left{
     width: 70%;
+
+}
+.partn-left{
+    width: 60%;
+
+}
+
+.partn-right{
+    width: 40%;
+    padding: 40px;
+    
 
 }
 
@@ -195,6 +215,13 @@ width: 30%;
     color: var(--white-bg);
     text-decoration: none;
 
+}
+
+.partn-btn{
+    padding: 10px 15px;
+    color: var(--black);
+    text-decoration: none;
+    border: 1px solid var(--black);
 }
 
 
@@ -223,6 +250,10 @@ width: 30%;
 .aligit-center{
     align-items: center;
 
+}
+
+.aligcon-start{
+    align-content: flex-start;
 }
 
 .aligcon-center{
@@ -272,8 +303,21 @@ header a{
 
 
 #plans h2{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+}
+
+#plans h1{
+    font-size: 2rem;
+}
+
+
+
+.team-left p{
+    font-size: .8rem;
+
+
     
+
 }
 
 
@@ -347,11 +391,20 @@ header a{
 
 
 .jumbo-img{
-    width: 90%;
+    width: 95%;
     position: absolute;
+
+}
+
+
+.partn-img{
+    max-width: 100%;
 
 }
 
 
 /* colori */
 
+.check-blue{
+    color: var(--blue-btn) ;
+}
