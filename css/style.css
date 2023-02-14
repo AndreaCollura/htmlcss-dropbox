@@ -23,6 +23,7 @@
 --dark-red: #D5001F;
 --dark-blue: #0D2481;
 --yellow: #FFD830;
+--border-green: #d1e9cd ;   
 --grey-border: rgba(128, 128, 128, 0.671);
 }
 
@@ -132,7 +133,7 @@ footer{
 
 #plans ul li::before{
     margin-right: .8rem;
-    
+
 
 }
 
@@ -191,7 +192,7 @@ width: 30%;
 .partn-right{
     width: 40%;
     padding: 45px;
-    
+
 
 }
 
@@ -199,6 +200,16 @@ width: 30%;
     width: calc((100% / 3) - 20px) ;
 }
 
+.bigbox-clie{
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.smallbox-clie{
+    width: 50%;
+    height: 50%;
+    
+}
 
 
 
@@ -299,7 +310,7 @@ header a{
 
 #hero li{
     padding-bottom: 30px;
-    
+
 
 }
 
@@ -321,7 +332,7 @@ header a{
 #tools h1{
     font-size: 2.3rem;
     padding-bottom: 30px;
-    
+
 }
 
 #tools p{
@@ -339,7 +350,7 @@ header a{
     font-size: .8rem;
 
 
-    
+
 
 }
 
@@ -348,7 +359,7 @@ header a{
 #plans li{
     padding-bottom: 20px;
     font-size: 0.8rem;
-    
+
 
 }
 
@@ -420,14 +431,54 @@ header a{
 }
 
 
-.partn-img{
+.img-100{
     max-width: 100%;
 
 }
+
 
 
 /* colori */
 
 .check-blue{
     color: var(--blue-btn) ;
+}
+
+
+.green-logo{
+    background-color: var(--lightgreen);
+    border:15px solid var(--border-green) ;
+}
+
+.bordeau-logo{
+    background-color: var(--bordeaux);
+}
+
+.darkred-logo{
+    background-color: var(--dark-red);
+}
+
+.lightgrey-logo{
+    background-color: var(--lightgrey);
+}
+
+.lightblue-logo{
+    background-color: var(--light-blue);
+}
+
+.red-logo{
+    background-color: var(--red);
+
+}
+
+.darkblue-logo{
+    background-color: var(--dark-blue);
+}
+
+.yellow-logo{
+    background-color: var(--yellow);
+}
+
+.biggrey-logo{
+    background-color: var(--designit-grey);
 }
