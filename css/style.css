@@ -124,6 +124,9 @@ footer{
     padding-bottom: 20px;
 }
 
+.margin-t-40{
+    margin-top: -50px;
+}
 
 
 .icon-rpad5{
@@ -203,12 +206,26 @@ width: 30%;
 .bigbox-clie{
     width: calc(100% / 3);
     height: calc(100vw / 3);
+    
+
 }
 
 .smallbox-clie{
     width: 50%;
     height: 50%;
     
+}
+
+.greydiv{
+    width:100px ;
+    height: 100px;
+    border-bottom: 1px solid var(--grey-border);
+    margin-bottom: 60px;
+}
+
+.clie-title{
+    width: 60%;
+
 }
 
 
@@ -249,6 +266,11 @@ width: 30%;
 
 }
 
+.d-flex-colu{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .no-wrap-flex{
     display: flex;
     flex-flow: row nowrap;
@@ -267,9 +289,14 @@ width: 30%;
 
 }
 
+.aligit-start{
+    align-content: flex-start;
+}
+
 .aligcon-start{
     align-content: flex-start;
 }
+
 
 .aligcon-center{
     align-content: center;
@@ -349,9 +376,17 @@ header a{
 .team-left p{
     font-size: .8rem;
 
+}
 
-
-
+#clients p{
+    font-size: 1rem;
+    padding-bottom: 50px;
+}
+#clients h1{
+    font-size: 2.3rem;
+    padding-bottom: 50px;
+    
+    
 }
 
 
@@ -433,7 +468,10 @@ header a{
 
 .img-100{
     max-width: 100%;
+}
 
+.img-50{
+    max-width: 50%;
 }
 
 .clients-logos{
@@ -442,6 +480,10 @@ header a{
     width: 50%;
     margin: 0 auto;
     
+}
+
+.bgrey-padding{
+    padding: 40px;
 }
 
 
@@ -491,3 +533,6 @@ header a{
 .biggrey-logo{
     background-color: var(--designit-grey);
 }
+
+
+
