@@ -258,6 +258,10 @@ width: 30%;
 }
 
 
+.Footer-text{
+
+}
+
 /* PULSANTI */
 
 
@@ -455,6 +459,9 @@ header a{
 
 
 
+
+
+
 .text-interline{
     line-height: 40px;
 }
@@ -627,5 +634,20 @@ header a{
     
     
   }
+
+  .detail{
+    display: none;
+  }
+
+  .faq-box:hover .detail{
+
+    display: block;
+ }
+
+ .faq-box:hover .arrow{
+    transform: rotate(-225deg);
+    margin-top: 4px;
+
+ }
 
  
