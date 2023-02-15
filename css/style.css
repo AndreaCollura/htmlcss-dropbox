@@ -319,6 +319,13 @@ width: 30%;
     margin-top: -50px;
 }
 
+.bgrey-padding{
+    padding: 40px;
+    
+}
+
+
+
 /* / MARGINI & PADDING */
 
 
@@ -685,10 +692,6 @@ header a{
     
 }
 
-.bgrey-padding{
-    padding: 40px;
-}
-
 
 
 
@@ -750,7 +753,6 @@ header a{
 }
 
 /* prove */
-
 
 
  
